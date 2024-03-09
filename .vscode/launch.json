@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "clean_green_app",
+            "cwd": "clean_green_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "clean_green_app (profile mode)",
+            "cwd": "clean_green_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "clean_green_app (release mode)",
+            "cwd": "clean_green_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
