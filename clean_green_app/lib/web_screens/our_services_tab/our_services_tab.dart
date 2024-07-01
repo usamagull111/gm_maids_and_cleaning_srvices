@@ -1,10 +1,15 @@
-import 'package:clean_green_app/web_screens/about_us_tab/about_us_tab_widgets.dart';
 import 'package:clean_green_app/web_screens/home_tab/home_tab_widgets.dart';
+import 'package:clean_green_app/web_screens/our_services_tab/our_services_widget.dart';
 import 'package:flutter/material.dart';
 
-class AboutUsTab extends StatelessWidget {
-  const AboutUsTab({super.key});
+class OurServicesTab extends StatefulWidget {
+  const OurServicesTab({super.key});
 
+  @override
+  State<OurServicesTab> createState() => _OurServicesTabState();
+}
+
+class _OurServicesTabState extends State<OurServicesTab> {
   @override
   Widget build(BuildContext context) {
     var height = MediaQuery.sizeOf(context).height;
@@ -33,9 +38,7 @@ class AboutUsTab extends StatelessWidget {
               ],
             ),
           ),
-          about(height: height, width: width),
-          ourMission(height: height, width: width),
-          vision(height: height, width: width),
+            ourServices(height: height, width: width),
            contactData(height: height, width: width),
            contactDetails(width: width, height: height),
         ],

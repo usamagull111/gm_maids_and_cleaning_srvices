@@ -23,6 +23,7 @@ Widget contactUs({var height, var width}){
         ),
         SizedBox(
           height: height * 0.1,
+          
         ),
         Container(
           alignment: Alignment.bottomLeft,
@@ -34,13 +35,13 @@ Widget contactUs({var height, var width}){
         Container(
           alignment: Alignment.centerLeft,
           child: const Text(
-            '\n                                                                                                           Office # 1, First Floor, Plot # 45, Street 10, I-9/2, Islamabad\n',
+            '\n                                                                                                           Office # 1, Main Golra Service Road F11/1, Near Street # 1, Khokhar Chowk\n',
             style: TextStyle(fontSize: 16),
           ),
         ),
         LocationContainer(
           height: height,
-          width: width,
+          width: width * 0.5,
             locationName: 'Click To Open Location',
             latitude: 37.7749, // Your office latitude
             longitude: -122.4194, // Your office longitude
